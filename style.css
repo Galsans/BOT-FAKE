@@ -44,7 +44,7 @@ ul li a:hover {
     text-align: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 325px;
+    min-width: 205px;
 }
 .content {
     margin: 5px;
@@ -84,6 +84,12 @@ input {
     font-size: 1.8em;
     font-weight: 500;
 }
+@media screen and (max-width: 500px) {
+    .container {
+        max-width: 200px;
+        
+    }
+}
 /* CLOSING BOT */
 /* CLOSING BOT */
 /* CLOSING BOT */
@@ -119,13 +125,13 @@ input {
 .about-container {
     text-align: center;
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     background-color: #eae;
 }
 .about-wrap {
     width: 60%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 200px;
 }
 .about-wrap h1 {
     text-shadow: 3px 4px 3px lightblue;
